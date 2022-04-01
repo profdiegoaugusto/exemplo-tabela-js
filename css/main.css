@@ -19,9 +19,6 @@ header {
     padding: 32px;
 }
 
-h1 {
-
-}
 
 table {
     width: 100%;
@@ -34,8 +31,12 @@ thead {
     padding: 8px;
 }
 
-th {
+tr {
     padding: 8px;
+}
+
+th, td {
+    padding: 8px 16px;
 }
 
 
@@ -43,4 +44,12 @@ th {
     max-width: 960px;
     margin: 0 auto;
     padding: 0 10px;
+}
+
+.texto-alinhado-direita {
+    text-align: right;
+}
+
+.texto-alinhado-esquerda {
+    text-align: left;
 }
