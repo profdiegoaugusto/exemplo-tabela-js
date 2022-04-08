@@ -15,12 +15,28 @@
 
     <main>
         <div class="wrapper">
-            <div class="toolbar">
-                <button type="button">Adicionar</button>
-                <button type="Remover">Remover</button>
-            </div>
+
+            <section>
+                <header class="toolbar">
+                    <div>
+                        <h4><span id="total-produtos"></span> Produtos</h4>
+                    </div>
+                    <div>
+                        <label for="categoria-produto">Filtrar por:</label>
+                        <select name="categoria-produto" id="categoria-produto">
+                            <option value="tudo">Todas Categorias</option>
+                        </select>
+                    </div>
+                </header>
+                <div id="tabela">
+
+                </div>
+            </section>
         </div>
     </main>
+
+    <script src="js/produto.js"></script>
     <script src="js/main.js"></script>
+    
 </body>
 </html>

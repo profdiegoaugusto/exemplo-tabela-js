@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    padding: 32px;
+    padding: 16px;
 }
 
 
@@ -31,8 +31,17 @@ thead {
     padding: 8px;
 }
 
+tbody {
+    font-size: 10pt;
+}
+
 tr {
     padding: 8px;
+}
+
+tbody tr:hover {
+    background-color: aqua;
+    cursor: pointer;
 }
 
 th, td {
@@ -52,4 +61,13 @@ th, td {
 
 .texto-alinhado-esquerda {
     text-align: left;
+}
+
+.toolbar {
+    border: 1px solid black;
+    display: flex;
+}
+
+.toolbar div {
+    margin-right: 16px;
 }
